@@ -1,0 +1,174 @@
+/* Generales */
+*{
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+}
+/*Body*/
+body{
+	background-color: white;
+	box-sizing: border-box; 
+}
+/*HEADER */
+#header{
+   display: flex;
+   width: 100%;
+   background-color:rgb(196, 32, 32);
+   height: 80px;
+} 
+#header img{
+	height: 70px;
+	width: 70px;
+}
+#header #nombre_equipo{
+	height: 100%;
+	width: 100%;
+}
+#header #nombre_equipo h1{
+	justify-content: center;
+	color: white; 
+	font-size: xxx-large;
+	font-style: normal;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 900;
+}
+/*logo*/
+#header #logo{
+	background-image: url("../IMAGENES/RHINOS.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+/*contenedor del formulario*/
+#container-info-contacto{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#container-info-contacto h1{
+   color: black;
+}
+/* FORMULARIOS*/
+form{
+	background-color: white;
+	padding: 10px;
+	margin: 1px;
+	width: 350px;
+	border: 1px #222 solid;
+	margin-left: 10px;
+} 
+#titulo_contacto{
+	font-size: xx-large;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+}
+/*tamaños de la cajas del formulario */
+input[type=Text], [type=email] {
+    padding: 3px;
+	width: 300px;
+	border-radius: 5px;
+}
+/*estilo para los botones del formulario */
+input[type="submit"]{
+    border: 0;
+    background-color: #e63b2f;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+input[type="reset"]{
+    border: 0;
+    background-color: #ee8c0bad;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+/* tamaño de caja de texto de comentarios*/
+#comentario{
+	padding: 3px;
+	width: 300px;
+	height: 300px;
+}
+/*valores para marcar errores y mensajes correctos */
+.error{
+   color: #f81e06;
+   font-size: 12px;
+   padding: 10px;
+}
+.correcto{
+   color: #47ec5a;
+   font-size: 12px;
+   padding: 10px;
+}
+/* MENU */
+#menu{
+	clear: both;
+	background: #222;
+	color: #fff;
+	height: 55px;
+	border-bottom: 4px solid #e63b2f;
+}
+#menu ul{
+	list-style: none;
+	margin: 0px auto;
+	margin-left: 25px;
+}
+#menu ul li{
+	line-height: 55px;
+	float: right;
+	border-left: 1px solid #363636;
+}
+#menu a{
+	display: inline-block;
+	color:#fff;
+	font-size: 14px;
+	text-decoration: none;
+	padding-left: 12px;
+	padding-right: 12px;
+	transition: all 300ms;
+}
+#menu a:hover{
+	background:  #e63b2f;
+}
+/*visita */
+#visita{
+	padding: 4px;
+}
+#visita #titulo_club{
+	color: black;
+	justify-content: center;
+	padding: 3px;
+	font-size: xx-large;
+}
+#visita iframe{
+	padding: 3px;
+	width: 840px;
+	height: 425px;
+}
+#btn-whatsapp a img{
+	height: 50px;
+}
+/* footer */
+footer{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	font-size: large;
+}
+/*estilo para titulo h1*/
+#t1tulo-h1{
+    color: black;
+    font-size: xxx-large;
+    font-style: normal;
+}
+#organizacion li{
+	padding: 1px;
+	color: black;
+	list-style-type: circle;
+	list-style-position: inside;
+}
